@@ -1,13 +1,13 @@
 import React from 'react';
+import EmployeeTable from './components/EmployeeTable/EmployeeTable'
 import MainContainer from './components/MainContainer/MainContainer'
-import Navbar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Wrapper from './components/Wrapper/Wrapper';
 
 function App() {
   return (
     <div>
-      <Navbar />
+
       <Wrapper>
         <MainContainer />
       </Wrapper>
