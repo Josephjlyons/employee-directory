@@ -1,5 +1,5 @@
 import React from 'react';
-import EmployeeTable from './components/EmployeeTable/EmployeeTable'
+import Header from './components/Header/Header'
 import MainContainer from './components/MainContainer/MainContainer'
 import Footer from './components/Footer/Footer';
 import Wrapper from './components/Wrapper/Wrapper';
@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
 
+        <Header />
       <Wrapper>
         <MainContainer />
       </Wrapper>
