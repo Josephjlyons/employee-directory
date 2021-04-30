@@ -2,12 +2,23 @@ thead th span{
     cursor: pointer;
 }
 
-/* Following classes allows for table to be scrollable */
 tbody {
     display: block;
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 65vh;
+}
+
+.table{
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color:rgb(197, 197, 197);
+}
+
+th{
+    text-decoration: underline;
 }
 
 thead,
@@ -17,6 +28,12 @@ tbody tr {
     table-layout: fixed;
 }
 
-.email {
-    overflow-x: auto;
+.row-date{
+    text-align: center;
+    
+}
+
+.img:hover{
+    transform: scale(1.5);
+    transition: .2s ease-in;
 }
