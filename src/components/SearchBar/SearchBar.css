@@ -1,4 +1,12 @@
   
 .form-control {
     font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     }
+
+.navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: black;
+    color: white;
+}
