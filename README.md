@@ -1,7 +1,5 @@
 # Employee-Directory
 
-# Budget Tracker
-
 
 
 ![image of app](./public/assets/employee-directory.png)
